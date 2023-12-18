@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Menu Principal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="ion-justify-content-left">
+        <ion-col size="3">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/banda_bicolor_sola.png" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="3">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/parques.png" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+  
+  <ion-card>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="3" >
+          <ion-card-title>Menu Principal</ion-card-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>  
+      
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-button routerLink="/consultas" color="light" expand="block">Consultar Registros</ion-button> 
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-button routerLink="/faq" color="light" expand="block">Preguntas Frecuentes</ion-button> 
+        </ion-col>
+      </ion-row>
+      </ion-grid>
+    
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="2">
+          <ion-button  routerLink="/splash" color="light" expand="full">VOLVER</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  </ion-card>
+</ion-content>
+    

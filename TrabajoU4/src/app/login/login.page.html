@@ -1,0 +1,69 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="ion-justify-content-left">
+        <ion-col size="3">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/banda_bicolor_sola.png" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-left">
+        <ion-col size="2">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/logo_claveunica_azul.png" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+  
+  <ion-card>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="6">
+          <ion-card-title>Consulta General - Parques Cementerio</ion-card-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>  
+      
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="6">
+            <ion-input label="Ingresa tu RUN" label-placement="floating" fill="outline" placeholder="Ingresa tu RUN"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="6">
+          <ion-input type="password" label="Ingresa tu clave" label-placement="floating" fill="outline" placeholder="Ingresa tu clave"></ion-input>
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="3">
+          <a href="https://claveunica.gob.cl/recuperar">Recupera tu Clave Única</a>  
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="3">
+          <a href="https://codigo.srcei.cl/">Solicita tu Clave Única</a>  
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="6">
+          <ion-button routerLink="/home" color="secondary" expand="full">INGRESA</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size ="3">
+        <a href="https://claveunica.gob.cl/activar">Ayuda al 600 360 3303</a>  
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>
+    

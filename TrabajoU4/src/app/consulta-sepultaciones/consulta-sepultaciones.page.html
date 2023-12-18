@@ -1,0 +1,60 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Consulta Sepultaciones</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="ion-justify-content-left">
+        <ion-col size="3">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/banda_bicolor_sola.png" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="3">
+          <img alt="Aplicación Móvil Parques de Chile" src="/assets/img/parques.png" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+  
+  <ion-card>
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size ="5" >
+          <ion-card-title>Consulta Sepultaciones</ion-card-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>  
+      
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-input label="Apellido Paterno" label-placement="floating" fill="outline" placeholder="Apellido Paterno"></ion-input></ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-input label="Apellido Materno" label-placement="floating" fill="outline" placeholder="Apellido Materno"></ion-input></ion-col>
+      </ion-row>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size="10">
+          <ion-input label="Nombres" label-placement="floating" fill="outline" placeholder="Nombres"></ion-input></ion-col>
+      </ion-row>
+    </ion-grid>
+    
+    <ion-title>Detalle</ion-title>
+            <h3>Resultados</h3>
+              <p>Este es el detalle de la búsqueda</p>
+    <ion-grid>
+            <ion-row class="ion-justify-content-center">
+        <ion-col size ="2">
+          <ion-button routerLink="/consultas" color="light" expand="full">VOLVER</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  </ion-card>
+</ion-content>
+    
